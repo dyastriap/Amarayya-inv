@@ -1,5 +1,6 @@
----
 deployment:
-tasks:
-- export DEPLOYPATH=/home/amaj4848/public_html/git
-- /bin/cp -r * $DEPLOYPATH
+  tasks:
+    - export DEPLOYPATH=/home/amaj4848/amarayya-inv/
+    - /bin/cp -R * $DEPLOYPATH 
+
+    
